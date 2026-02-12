@@ -1,0 +1,46 @@
+       body{
+        background: linear-gradient(to left,#a18cd1,#fbc2eb);
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+       }   
+       .header{
+        color:black;
+        font-style: italic;
+        margin-bottom:20px; 
+        text-align: 20px;
+       }
+       
+       .player {
+          width:300px;
+          padding: 20px;
+          border-radius:20px;
+          text-align:center;
+          background-color:#a18cd1;
+        }
+        .controls button{
+            width:40px;
+            height:40px;
+            border-radius: 50%;
+            background-color:rgba(102, 91, 91, 0.733);
+        }
+        .image{
+            width:300px;
+            heigth:300px;
+            border-radius:10%;
+
+        }
+        button:hover{
+          background-color: rgb(234, 238, 241);
+          transition:0.3s;
+        }
+        .line{
+            width:200px;
+            accent-color: black;
+        }
+        button{
+            margin:5px;
+        }
+       
